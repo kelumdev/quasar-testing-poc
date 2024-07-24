@@ -1,6 +1,6 @@
-# Quasar App (quasar-testting-explore)
+# Quasar Testing Setup POC
 
-A Quasar Project
+A Quasar Project with basic unit testing setup and example unite test
 
 ## Install the dependencies
 ```bash
@@ -14,14 +14,12 @@ npm install
 quasar dev
 ```
 
-
 ### Lint the files
 ```bash
 yarn lint
 # or
 npm run lint
 ```
-
 
 ### Format the files
 ```bash
@@ -30,11 +28,14 @@ yarn format
 npm run format
 ```
 
-
-
 ### Build the app for production
 ```bash
 quasar build
+```
+
+### Run tests
+```bash
+npm run test:unit
 ```
 
 ### Customize the configuration
